@@ -1,0 +1,6 @@
+{
+  "name": "Hysteria Restaurant Tabarbour",
+  "description": "Crazy Taste — Shawarma, Saj, Smashed Burgers & Cheesy Calzones in Tabarbour, Amman. Built with Hono.js and DaisyUI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

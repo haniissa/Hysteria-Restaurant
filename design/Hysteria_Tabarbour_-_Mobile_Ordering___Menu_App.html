@@ -1,0 +1,618 @@
+<!DOCTYPE html><html class="dark" lang="en" data-immersive-translate-page-theme="dark"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport">
+<meta content="mobile_tab" name="shell-type">
+<title>HYSTERIA - Crazy Taste | Tabarbour, Amman</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700;1,900&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "background": "#131315",
+            "surface": "#131315",
+            "surface-dim": "#131315",
+            "surface-bright": "#39393b",
+            "surface-container-lowest": "#0e0e10",
+            "surface-container-low": "#1b1b1d",
+            "surface-container": "#201f21",
+            "surface-container-high": "#2a2a2c",
+            "surface-container-highest": "#353437",
+            "surface-variant": "#353437",
+            "on-surface": "#e5e1e4",
+            "on-surface-variant": "#e7bcba",
+            "on-background": "#e5e1e4",
+            "primary": "#ffb3af",
+            "primary-container": "#d90429",
+            "on-primary": "#68000e",
+            "on-primary-container": "#ffeae8",
+            "secondary": "#ffb784",
+            "secondary-container": "#f47d00",
+            "on-secondary": "#502500",
+            "on-secondary-container": "#572900",
+            "tertiary": "#f9bc47",
+            "tertiary-container": "#8f6500",
+            "on-tertiary": "#422c00",
+            "outline": "#ae8885",
+            "outline-variant": "#5d3f3d"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "2xl": "1rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            "headline": ["Montserrat", "sans-serif"],
+            "body": ["Inter", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    @layer base {
+      html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #131315;
+        color: #e5e1e4;
+      }
+      body {
+        overscroll-behavior: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .pb-safe {
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      .pt-safe {
+        padding-top: env(safe-area-inset-top, 0px);
+      }
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    body {
+      min-height: max(884px, 100dvh);
+    }
+    .neon-glow-red {
+      box-shadow: 0 0 16px rgba(217, 4, 41, 0.45);
+    }
+    .neon-text-glow {
+      text-shadow: 0 0 8px rgba(217, 4, 41, 0.6);
+    }
+  </style>
+<style data-id="immersive-translate-input-injected-css"></style></head>
+<body class="bg-surface text-on-surface font-body flex flex-col min-h-screen antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- 1. Header & Identity: Real Hysteria Tabarbour -->
+<header class="fixed top-0 inset-x-0 z-50 bg-[#131315]/95 backdrop-blur-xl pt-safe border-b border-[#353437]/60 shadow-[0_4px_20px_rgba(0,0,0,0.7)]">
+<div class="h-20 px-4 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<!-- Hysteria Red Circular Logo Badge with 3 bars -->
+<div class="relative w-11 h-11 rounded-full bg-[#d90429] flex flex-col items-center justify-center gap-[3px] shadow-[0_0_14px_rgba(217,4,41,0.6)] shrink-0">
+<span class="w-5 h-[3px] bg-white rounded-full"></span>
+<span class="w-5 h-[3px] bg-white rounded-full"></span>
+<span class="w-5 h-[3px] bg-white rounded-full"></span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-headline font-black text-xl tracking-tight text-white uppercase">HYSTERIA</span>
+<span class="text-[10px] font-headline font-bold px-1.5 py-0.5 rounded bg-[#d90429] text-white tracking-wide uppercase">CRAZY TASTE</span>
+</div>
+<div class="flex items-center gap-1 text-xs text-on-surface-variant font-medium">
+<span class="text-[#ffb784] font-bold">هيستيريا</span>
+<span class="text-zinc-600">•</span>
+<span class="flex items-center text-zinc-300">
+<span class="material-symbols-outlined text-[13px] text-[#d90429] mr-0.5">location_on</span>
+              Tabarbour, Amman
+            </span>
+</div>
+</div>
+</div>
+<!-- WhatsApp & Direct Call CTAs -->
+<div class="flex items-center gap-2">
+<a aria-label="Direct Call" class="w-10 h-10 rounded-full bg-surface-container-high border border-outline-variant/60 flex items-center justify-center text-[#ffb784] active:scale-95 transition-transform" href="tel:0790699111">
+<span class="material-symbols-outlined text-[19px]">call</span>
+</a>
+<a aria-label="WhatsApp Order" class="w-10 h-10 rounded-full bg-[#25D366]/20 border border-[#25D366]/40 flex items-center justify-center text-[#25D366] active:scale-95 transition-transform" href="https://wa.me/962790699111" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Live Status & Rating Pill Sub-bar -->
+<div class="bg-surface-container-lowest px-4 py-1.5 flex items-center justify-between text-[11px] font-headline font-semibold border-t border-[#353437]/40">
+<div class="flex items-center gap-1.5 text-emerald-400">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+<span class="w-2 h-2 rounded-full bg-emerald-500 -ml-3.5"></span>
+<span>Open Now • Closes 4:00 AM</span>
+</div>
+<div class="flex items-center gap-2 text-zinc-300">
+<span class="flex items-center text-[#f9bc47]">
+<span class="material-symbols-outlined text-[13px] mr-0.5" style="font-variation-settings: 'FILL' 1;">star</span> 4.4
+        </span>
+<span class="text-zinc-500">|</span>
+<span class="text-primary font-bold">1 – 5 JOD</span>
+</div>
+</div>
+</header>
+<!-- Main Scrollable Content -->
+<main class="flex flex-col relative w-full pt-28 pb-28 px-4 bg-surface min-h-screen space-y-5">
+<!-- 2. Quick Order & Delivery Banner -->
+<section class="bg-gradient-to-r from-surface-container to-surface-container-high border border-[#d90429]/30 rounded-xl p-3 shadow-xl">
+<div class="flex items-center justify-between mb-2.5">
+<span class="font-headline font-bold text-xs uppercase tracking-wider text-white flex items-center gap-1">
+<span class="material-symbols-outlined text-[#d90429] text-[16px]">moped</span>
+          1-Tap Instant Ordering
+        </span>
+<span class="text-[10px] font-bold text-[#ffb784] bg-surface-container-lowest px-2 py-0.5 rounded border border-outline-variant/40">
+          Tabarbour &amp; Amman Wide
+        </span>
+</div>
+<div class="grid grid-cols-3 gap-2">
+<a class="bg-[#ff5a00] hover:bg-[#ff6a15] text-white text-center py-2 px-1 rounded-lg font-headline font-extrabold text-[11px] flex flex-col items-center justify-center active:scale-95 transition-transform shadow-md" href="#">
+<span class="text-[9px] font-medium tracking-tight opacity-90">ORDER VIA</span>
+<span>Talabat 🛵</span>
+</a>
+<a class="bg-[#00e166] text-black text-center py-2 px-1 rounded-lg font-headline font-extrabold text-[11px] flex flex-col items-center justify-center active:scale-95 transition-transform shadow-md" href="#">
+<span class="text-[9px] font-semibold tracking-tight opacity-80">DELIVER VIA</span>
+<span>Careem ⚡️</span>
+</a>
+<a class="bg-[#d90429] hover:bg-[#bf0022] text-white text-center py-2 px-1 rounded-lg font-headline font-extrabold text-[11px] flex flex-col items-center justify-center active:scale-95 transition-transform shadow-md" href="tel:0790699111">
+<span class="text-[9px] font-medium tracking-tight opacity-90">CALL &amp; COLLECT</span>
+<span>07 9069 9111</span>
+</a>
+</div>
+</section>
+<!-- 3. Hero Card: Late-Night Shawarma & Saj -->
+<section class="relative w-full rounded-2xl overflow-hidden shadow-2xl bg-surface-container-lowest border border-[#353437]">
+<div class="relative w-full h-80 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDhhE1J-w9990oPPgP3bnl7ja9pxY84XrAkuwbbEavQ9uZAn8P5imoh9m2fEc2gWfVY8NOHfFemZ5qF5jo7jdG8h91G2f3p4cRGtsw9IK80ENCk9vNb6tM35AhaWhgTMI3JUg_QHVfUSYzw-hIpt8WVoHnxevGmtUhds9ObQSY2AETHRzPNuOBRQSVpHH1Bp7w-gI7o4A80U2gXWDqT1kIfxdX7DykKAmo5Yr2fWekXO0fpjEGcDgXq')">
+<div class="absolute inset-0 bg-gradient-to-t from-[#131315] via-[#131315]/60 to-black/20"></div>
+<!-- Live Tag Badge -->
+<div class="absolute top-3 left-3 bg-[#d90429] text-white font-headline font-black text-[10px] tracking-widest uppercase px-2.5 py-1 rounded shadow-lg flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">local_fire_department</span> CRAZY TASTE
+        </div>
+<div class="absolute top-3 right-3 bg-black/70 backdrop-blur-md text-[#f9bc47] font-headline font-bold text-[11px] px-2.5 py-1 rounded-full border border-white/10 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> Until 4:00 AM
+        </div>
+<div class="absolute inset-x-0 bottom-0 p-4 flex flex-col space-y-2">
+<div class="flex items-center gap-2">
+<span class="font-headline font-bold text-xs text-[#ffb784] tracking-wide uppercase">Tabarbour Street Specialty</span>
+<span class="text-xs text-white/50">•</span>
+<span class="text-xs text-zinc-300 font-medium">سناكات و شاورما صاج</span>
+</div>
+<h1 class="font-headline font-black text-2xl leading-tight text-white tracking-tight">
+            Amman's Craziest Late-Night Shawarma &amp; Saj
+          </h1>
+<p class="font-body text-xs text-zinc-300 line-clamp-2 leading-relaxed">
+            Freshly sliced chicken &amp; beef saj, smashed burgers &amp; loaded cheesy fries until 4 AM in Tabarbour.
+          </p>
+<div class="flex items-center gap-2 pt-2">
+<a class="flex-1 bg-[#d90429] text-white font-headline font-extrabold text-xs py-3 px-3 rounded-lg shadow-[0_4px_16px_rgba(217,4,41,0.5)] active:scale-95 transition-transform flex items-center justify-center gap-1.5" href="tel:0790699111">
+<span class="material-symbols-outlined text-[16px]">call</span>
+<span>Direct Order (07 9069 9111)</span>
+</a>
+<a class="bg-surface-container-high border border-outline-variant/60 text-white font-headline font-bold text-xs py-3 px-3.5 rounded-lg active:scale-95 transition-transform flex items-center justify-center gap-1" href="#menu-grid">
+<span>View Menu</span>
+<span class="material-symbols-outlined text-[15px]">arrow_downward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Category Pills Filter -->
+<section class="flex flex-col space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-headline font-bold text-xs uppercase tracking-wider text-zinc-400">Street Food Categories</span>
+<span class="text-[11px] font-headline text-[#ffb3af] font-bold">1.00 – 5.00 JOD</span>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto pb-1 -mx-4 px-4" id="category-pills">
+<button class="shrink-0 px-3.5 py-2 rounded-lg text-xs font-headline font-extrabold bg-[#d90429] text-white shadow-md">
+          🔥 All Deals
+        </button>
+<button class="shrink-0 px-3.5 py-2 rounded-lg text-xs font-headline font-bold bg-surface-container text-zinc-200 border border-outline-variant/40 hover:border-[#d90429] transition-colors">
+          🌯 Saj &amp; Shawarma
+        </button>
+<button class="shrink-0 px-3.5 py-2 rounded-lg text-xs font-headline font-bold bg-surface-container text-zinc-200 border border-outline-variant/40 hover:border-[#d90429] transition-colors">
+          🍔 Smash Burgers
+        </button>
+<button class="shrink-0 px-3.5 py-2 rounded-lg text-xs font-headline font-bold bg-surface-container text-zinc-200 border border-outline-variant/40 hover:border-[#d90429] transition-colors">
+          🧀 Stuffed Calzones
+        </button>
+<button class="shrink-0 px-3.5 py-2 rounded-lg text-xs font-headline font-bold bg-surface-container text-zinc-200 border border-outline-variant/40 hover:border-[#d90429] transition-colors">
+          🍟 Loaded Fries &amp; Sides
+        </button>
+<button class="shrink-0 px-3.5 py-2 rounded-lg text-xs font-headline font-bold bg-surface-container text-zinc-200 border border-outline-variant/40 hover:border-[#d90429] transition-colors">
+          🥤 Drinks
+        </button>
+</div>
+</section>
+<!-- 5. Food Menu Cards with Real Photos & Exact Prices (1-5 JOD) -->
+<section class="flex flex-col space-y-3" id="menu-grid">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-headline font-bold text-[11px] text-[#ffb784] tracking-widest uppercase">STREET BESTSELLERS</span>
+<h2 class="font-headline font-black text-xl text-white tracking-tight">Hysteria Crazy Menu</h2>
+</div>
+<span class="text-xs bg-surface-container-high px-2 py-1 rounded font-headline font-bold text-zinc-300">
+          6 Core Items
+        </span>
+</div>
+<div class="grid grid-cols-1 gap-3.5">
+<!-- Item 1: Michigan Mushroom Burger -->
+<div class="bg-surface-container-low border border-[#353437] rounded-xl overflow-hidden shadow-lg flex flex-col">
+<div class="relative w-full h-48 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDwiMqLUolodg1RVR0svFX18p_1ysSnIq-oj3xYADwxhhmTLi6Tul2tNfHEx3fCTo9Zw9Agdwq0XNM2dA2LY_RdsTRWZjWylaB4ZiichHIiFw9bpwQoJTiuF8YN_TxqWs_sFT1JkyPopUm3ZFbHcEksTcBhOnf53NqBXlENDtqZvi2iHqzHhaOsrJl0224MhUm4V8Jwv4z9QorCjH4l3_8FRJZV7UxyLYlqfgi4_3neRcXe-YbUQZZ0')">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-2.5 left-2.5 bg-[#d90429] text-white font-headline font-black text-[10px] px-2 py-0.5 rounded shadow">
+              MUST TRY BURGER
+            </span>
+<div class="absolute bottom-2.5 left-3 right-3 flex items-end justify-between">
+<span class="text-white font-headline font-extrabold text-xs bg-black/70 px-2 py-1 rounded backdrop-blur-sm">
+                منشيغان ماشروم
+              </span>
+<span class="font-headline font-black text-lg text-[#ffb3af] bg-[#d90429]/90 px-2.5 py-0.5 rounded-lg shadow">
+                3.50 JOD
+              </span>
+</div>
+</div>
+<div class="p-3.5 flex flex-col space-y-2">
+<div class="flex items-start justify-between">
+<h3 class="font-headline font-extrabold text-base text-white">Michigan Mushroom Burger</h3>
+</div>
+<p class="font-body text-xs text-zinc-400 leading-relaxed">
+              Smashed patty, sautéed mushrooms, melted cheese &amp; crispy fried onion ring with crazy sauce in toasted brioche.
+            </p>
+<div class="pt-1 flex items-center justify-between border-t border-[#353437]/60">
+<span class="text-[11px] text-zinc-400 font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-[#ffb784]">lunch_dining</span> Beef Smash
+              </span>
+<a class="bg-[#d90429] hover:bg-[#bf0022] text-white font-headline font-bold text-xs py-1.5 px-3 rounded flex items-center gap-1 active:scale-95 transition-transform" href="tel:0790699111">
+<span>Order Now</span>
+<span class="material-symbols-outlined text-[13px]">add</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Item 2: Super Saj Chicken Shawarma -->
+<div class="bg-surface-container-low border border-[#353437] rounded-xl overflow-hidden shadow-lg flex flex-col">
+<div class="relative w-full h-48 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC8ghVM60aHL0jGcEL__7DHkSEC3qfTolYnKPXdw3NPqnRHhxZC0cVWCJ9bn1eDiTkbSX-03huwXUjkNs9eOlB0tH5NIfUDZLJWR6Iuu9Km6l7j1ENzfvizLqSXOET5BrpvEb2PNN2r-L1lZ9OMnfNzFocHv1fPwr3x9oU8jYVk4NG30ADHgZWMSKxeYZu071Pl-QxlbcjOmen88y6-GyW6kBNVa1IRKskGm0Q7Ztd4MLAtWX26fT50')">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-2.5 left-2.5 bg-[#f47d00] text-black font-headline font-black text-[10px] px-2 py-0.5 rounded shadow">
+              TABARBOUR FAVORITE
+            </span>
+<div class="absolute bottom-2.5 left-3 right-3 flex items-end justify-between">
+<span class="text-white font-headline font-extrabold text-xs bg-black/70 px-2 py-1 rounded backdrop-blur-sm">
+                شاورما صاج سوبر
+              </span>
+<span class="font-headline font-black text-lg text-[#ffb3af] bg-[#d90429]/90 px-2.5 py-0.5 rounded-lg shadow">
+                3.00 JOD
+              </span>
+</div>
+</div>
+<div class="p-3.5 flex flex-col space-y-2">
+<div class="flex items-start justify-between">
+<h3 class="font-headline font-extrabold text-base text-white">Super Saj Chicken Shawarma</h3>
+</div>
+<p class="font-body text-xs text-zinc-400 leading-relaxed">
+              Sliced saj roll packed with spiced shredded chicken, crispy seasoned fries, signature garlic toum, and crunchy pickles.
+            </p>
+<div class="pt-1 flex items-center justify-between border-t border-[#353437]/60">
+<span class="text-[11px] text-zinc-400 font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-[#ffb784]">kebab_dining</span> Chicken Saj
+              </span>
+<a class="bg-[#d90429] hover:bg-[#bf0022] text-white font-headline font-bold text-xs py-1.5 px-3 rounded flex items-center gap-1 active:scale-95 transition-transform" href="tel:0790699111">
+<span>Order Now</span>
+<span class="material-symbols-outlined text-[13px]">add</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Item 3: Pita Doner & Shawarma Basket -->
+<div class="bg-surface-container-low border border-[#353437] rounded-xl overflow-hidden shadow-lg flex flex-col">
+<div class="relative w-full h-48 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDSKBFfW7oMrpvoEBak1CxPAqx-IbqXRGAvVyCUpyJsY12JJVswJ6x6AstSco8tCDJx7oy48b3eVPwLR3HEMKKXxVn3Jlap7IiiudjTSH8AB-kiQH75rp0XDr2KiNEsDwY4hRaKpa-MjPM6xT1rR36eZPxksB-JDjCodvtzkpNS6OSUhT6sJz99qG4fxoo_MXTgxZclSsqa8FtlzuaUhYHb7UeJB9u_S8KQdz8RHx0hNJPU7GDeBnq7')">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-2.5 left-2.5 bg-surface-container-highest text-white font-headline font-bold text-[10px] px-2 py-0.5 rounded">
+              POCKET SPECIAL
+            </span>
+<div class="absolute bottom-2.5 left-3 right-3 flex items-end justify-between">
+<span class="text-white font-headline font-extrabold text-xs bg-black/70 px-2 py-1 rounded backdrop-blur-sm">
+                وجبة دونر عربي
+              </span>
+<span class="font-headline font-black text-lg text-[#ffb3af] bg-[#d90429]/90 px-2.5 py-0.5 rounded-lg shadow">
+                2.75 JOD
+              </span>
+</div>
+</div>
+<div class="p-3.5 flex flex-col space-y-2">
+<div class="flex items-start justify-between">
+<h3 class="font-headline font-extrabold text-base text-white">Pita Doner &amp; Shawarma Basket</h3>
+</div>
+<p class="font-body text-xs text-zinc-400 leading-relaxed">
+              4 warm stuffed pocket breads with spiced doner shawarma, seasoned street fries, arugula and garlic dip.
+            </p>
+<div class="pt-1 flex items-center justify-between border-t border-[#353437]/60">
+<span class="text-[11px] text-zinc-400 font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-[#ffb784]">bakery_dining</span> 4 Pockets
+              </span>
+<a class="bg-[#d90429] hover:bg-[#bf0022] text-white font-headline font-bold text-xs py-1.5 px-3 rounded flex items-center gap-1 active:scale-95 transition-transform" href="tel:0790699111">
+<span>Order Now</span>
+<span class="material-symbols-outlined text-[13px]">add</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Item 4: Mini Saj Platter (6 pcs) -->
+<div class="bg-surface-container-low border border-[#353437] rounded-xl overflow-hidden shadow-lg flex flex-col">
+<div class="relative w-full h-48 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDZQt21bSFExDqIEddi0s8Ji-B-erqV3oef8LBIKKOmV25szjV9Ep6MjGIPGHvppJo5Kd5SDh3Bt7vserP0uT8kd9DZB7X_IP_vH6_-jJ_j4keZFWi19LD9O7e9Vq3tcWKwMbRL_0d7iqMapsGBJcl2NzBoqkOJqvmEQvmeDY2I8YGyi-K8YHITdo_0LkQkzEHGNh3eHVegFFWRp3g6YN6as_5aTsj_BPHQMoPa0XWNfgDWGAUi0NGr')">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-2.5 left-2.5 bg-[#d90429] text-white font-headline font-black text-[10px] px-2 py-0.5 rounded shadow">
+              SHARING COMBO
+            </span>
+<div class="absolute bottom-2.5 left-3 right-3 flex items-end justify-between">
+<span class="text-white font-headline font-extrabold text-xs bg-black/70 px-2 py-1 rounded backdrop-blur-sm">
+                ميني صاج سبيشال (6 قطع)
+              </span>
+<span class="font-headline font-black text-lg text-[#ffb3af] bg-[#d90429]/90 px-2.5 py-0.5 rounded-lg shadow">
+                4.50 JOD
+              </span>
+</div>
+</div>
+<div class="p-3.5 flex flex-col space-y-2">
+<div class="flex items-start justify-between">
+<h3 class="font-headline font-extrabold text-base text-white">Mini Saj Platter (6 pcs)</h3>
+</div>
+<p class="font-body text-xs text-zinc-400 leading-relaxed">
+              Bite-sized crispy mini saj rolls topped with pomegranate drizzle, garlic toum, and wild sumac side salad.
+            </p>
+<div class="pt-1 flex items-center justify-between border-t border-[#353437]/60">
+<span class="text-[11px] text-zinc-400 font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-[#ffb784]">groups</span> Group Snack
+              </span>
+<a class="bg-[#d90429] hover:bg-[#bf0022] text-white font-headline font-bold text-xs py-1.5 px-3 rounded flex items-center gap-1 active:scale-95 transition-transform" href="tel:0790699111">
+<span>Order Now</span>
+<span class="material-symbols-outlined text-[13px]">add</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Item 5: Double Smashed Street Burger -->
+<div class="bg-surface-container-low border border-[#353437] rounded-xl overflow-hidden shadow-lg flex flex-col">
+<div class="relative w-full h-48 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCX1XCoYX9Udy3OqCewROZVtoXs1qv3k4y4z7voJmQXRlBixiXw_kQgbEucXniohbU8ivmI4_xq9a92kNtl4REctodixvGHjF64S-yXe9YkGk3ZheP72C31rIME1eB5J7N1scobGxWxRcPdyL6Sd_I1Uc9DFFzIDx2XDpzvFH0LTmhcjXv-Xvuwst_yBmOobfpLfOVPafJfshCHhsiqZZl9Ds92CT4RxxMunGtsTpRo8qv-azPH3Wqc')">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-2.5 left-2.5 bg-[#f47d00] text-black font-headline font-black text-[10px] px-2 py-0.5 rounded shadow">
+              DOUBLE PATTY
+            </span>
+<div class="absolute bottom-2.5 left-3 right-3 flex items-end justify-between">
+<span class="text-white font-headline font-extrabold text-xs bg-black/70 px-2 py-1 rounded backdrop-blur-sm">
+                دبل سماش ستريت برجر
+              </span>
+<span class="font-headline font-black text-lg text-[#ffb3af] bg-[#d90429]/90 px-2.5 py-0.5 rounded-lg shadow">
+                3.25 JOD
+              </span>
+</div>
+</div>
+<div class="p-3.5 flex flex-col space-y-2">
+<div class="flex items-start justify-between">
+<h3 class="font-headline font-extrabold text-base text-white">Double Smashed Street Burger</h3>
+</div>
+<p class="font-body text-xs text-zinc-400 leading-relaxed">
+              Double 100% beef smash patties, melted American cheddar, shredded crisp lettuce, pickles, and signature Hysteria crazy sauce.
+            </p>
+<div class="pt-1 flex items-center justify-between border-t border-[#353437]/60">
+<span class="text-[11px] text-zinc-400 font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-[#ffb784]">local_fire_department</span> High Sizzle
+              </span>
+<a class="bg-[#d90429] hover:bg-[#bf0022] text-white font-headline font-bold text-xs py-1.5 px-3 rounded flex items-center gap-1 active:scale-95 transition-transform" href="tel:0790699111">
+<span>Order Now</span>
+<span class="material-symbols-outlined text-[13px]">add</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Item 6: Hysteria Cheesy Calzone -->
+<div class="bg-surface-container-low border border-[#353437] rounded-xl overflow-hidden shadow-lg flex flex-col">
+<div class="relative w-full h-48 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD1WLMjVywZTnFdghmfPKBDJGBFK-kIEALZPN9HLmMvr1z5GNFVd1mUUUVg3sH16Dcsb-HxrpVnhB-cAUC0GRxtIVLluIsx_erf2rzDAg57c5PheBCDhliiOU-LXZyjrVIUlhhKRSFV2Pz8kM_qcscqP9E9eiufZG6nj6uA5n6biLJu0VqjHaUDOdmjAuFDqkIFJqGv0yPq0i24dgml8lxNKktc8o7mleaYJ2A8APaXoU67CtDVDo__')">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-2.5 left-2.5 bg-[#d90429] text-white font-headline font-black text-[10px] px-2 py-0.5 rounded shadow">
+              MEGA CHEESE PULL
+            </span>
+<div class="absolute bottom-2.5 left-3 right-3 flex items-end justify-between">
+<span class="text-white font-headline font-extrabold text-xs bg-black/70 px-2 py-1 rounded backdrop-blur-sm">
+                كالزوني هيستيريا بالجبنة
+              </span>
+<span class="font-headline font-black text-lg text-[#ffb3af] bg-[#d90429]/90 px-2.5 py-0.5 rounded-lg shadow">
+                3.75 JOD
+              </span>
+</div>
+</div>
+<div class="p-3.5 flex flex-col space-y-2">
+<div class="flex items-start justify-between">
+<h3 class="font-headline font-extrabold text-base text-white">Hysteria Cheesy Calzone</h3>
+</div>
+<p class="font-body text-xs text-zinc-400 leading-relaxed">
+              Fresh stone-baked folded dough brimming with molten mozzarella cheese pull, seasoned spiced meat, and spicy cajun fries.
+            </p>
+<div class="pt-1 flex items-center justify-between border-t border-[#353437]/60">
+<span class="text-[11px] text-zinc-400 font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-[#ffb784]">local_pizza</span> Oven Baked
+              </span>
+<a class="bg-[#d90429] hover:bg-[#bf0022] text-white font-headline font-bold text-xs py-1.5 px-3 rounded flex items-center gap-1 active:scale-95 transition-transform" href="tel:0790699111">
+<span>Order Now</span>
+<span class="material-symbols-outlined text-[13px]">add</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Urban Store & Vibe Section: Graffiti Murals & Exterior -->
+<section class="bg-surface-container-low border border-[#353437] rounded-xl p-4 shadow-xl flex flex-col space-y-3.5">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-headline font-bold text-[10px] text-[#d90429] tracking-widest uppercase">STREET CULTURE</span>
+<h3 class="font-headline font-black text-lg text-white">The Tabarbour Vibe</h3>
+</div>
+<span class="text-[11px] font-bold text-[#ffb784] bg-surface-container px-2 py-1 rounded">
+          Est. 2021
+        </span>
+</div>
+<!-- Real Storefront & Mural Photos -->
+<div class="grid grid-cols-2 gap-2.5">
+<div class="relative h-44 rounded-lg overflow-hidden border border-[#353437] group">
+<img alt="Hysteria exterior neon storefront Tabarbour Amman" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDUvfHVoirJ9bpgfyYK7tNKi0ocifRVDBCMhOIQuE6sYtMDCkZFwZ61M2uAgFN4r8qMq_niKEV7UYKbUuysnfBl-MrmuQgIxpKE5cCUcsn9NHQbJIHjl73OPr03GEM3n4tN8gAMkDpChr2MyyOEMk3MM7Tx7jgbZMyvJPHJeEoTx9s5UoE9yE_5s_ZEWXdkvvRpqIzO73C-edWzNuSQm3ZVLxaVRbcMEEzZioj4e60oNXgfEZIXYdi">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 text-[10px] font-headline font-bold text-white bg-black/60 px-1.5 py-0.5 rounded">
+            Outdoor Seating
+          </span>
+</div>
+<div class="relative h-44 rounded-lg overflow-hidden border border-[#353437] group">
+<img alt="Hysteria pop-art mural wall interior" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNjhGHaRqAvFyBVPXVrwhJjuAOvuduL-68KwLS5ckNxt4NJqKRtqCKsW23AmXb0c95E-WguuSrmr5fbPYPYqyPiIDGIaOs7-9fmEaEFaUYLrNrgem4iq0dmi6Pc4Zmem-DYLnAUTvK9FJuR8U_h0DitDJwjeFR_Csn3Pq0mcsUJpZO3NCwowjBifexSPAXVFVfO8mlH3cLBkF8RjqvFmMsUWMHjgO5PWuALIyE4wA76sEkF9oAZpJR">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 text-[10px] font-headline font-bold text-white bg-black/60 px-1.5 py-0.5 rounded">
+            Graffiti Murals
+          </span>
+</div>
+</div>
+<!-- Street Store Perks Badges -->
+<div class="grid grid-cols-2 gap-2 pt-1">
+<div class="bg-surface-container rounded-lg p-2.5 flex items-center gap-2">
+<span class="material-symbols-outlined text-[#d90429] text-[18px]">no_meeting_room</span>
+<div class="text-[11px] font-semibold text-zinc-200">No Reservations Needed</div>
+</div>
+<div class="bg-surface-container rounded-lg p-2.5 flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ffb784] text-[18px]">takeout_dining</span>
+<div class="text-[11px] font-semibold text-zinc-200">Dine-in &amp; Takeaway</div>
+</div>
+<div class="bg-surface-container rounded-lg p-2.5 flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ffb784] text-[18px]">local_parking</span>
+<div class="text-[11px] font-semibold text-zinc-200">Free Street Parking</div>
+</div>
+<div class="bg-surface-container rounded-lg p-2.5 flex items-center gap-2">
+<span class="material-symbols-outlined text-[#d90429] text-[18px]">wifi</span>
+<div class="text-[11px] font-semibold text-zinc-200">Free Ultra-Fast Wi-Fi</div>
+</div>
+</div>
+</section>
+<!-- 7. Tabarbour Location & Late Hours Card -->
+<section class="bg-surface-container-low border border-[#353437] rounded-xl p-4 shadow-xl flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-[#d90429] text-[22px]">pin_drop</span>
+<h3 class="font-headline font-black text-base text-white">Location &amp; Late Hours</h3>
+</div>
+<span class="font-headline font-bold text-[11px] text-[#ffb784]">طبربور - عمّان</span>
+</div>
+<!-- Visual Map Card with Navigate Button -->
+<div class="w-full bg-[#1b1b1d] rounded-xl border border-outline-variant/50 p-3.5 flex flex-col space-y-2.5">
+<div class="flex items-start justify-between">
+<div>
+<div class="font-headline font-black text-sm text-white flex items-center gap-1">
+              HYSTERIA - Crazy Taste
+            </div>
+<div class="text-xs text-zinc-300 mt-0.5">
+              Tabarbour Commercial Area, Tariq, Amman
+            </div>
+<div class="text-[11px] text-zinc-400 mt-0.5 flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-[#ffb784]">near_me</span>
+<span>Close to Queen Alia Hospital &amp; Tariq</span>
+</div>
+</div>
+<span class="bg-[#d90429]/20 text-[#ffb3af] border border-[#d90429]/40 text-[10px] font-headline font-black px-2 py-0.5 rounded">
+            LATE NIGHT
+          </span>
+</div>
+<div class="bg-surface-container-high/60 rounded px-2.5 py-1.5 flex items-center justify-between text-[11px] font-mono border border-outline-variant/30">
+<span class="text-zinc-400 flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-[#d90429]">explore</span> GPS Coordinates
+</span>
+<span class="text-[#ffb784] font-bold tracking-tight">32.0032° N, 35.9368° E</span>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<a class="flex-1 bg-[#d90429] hover:bg-[#bf0022] text-white font-headline font-extrabold text-xs py-2.5 px-3 rounded-lg flex items-center justify-center gap-1.5 shadow active:scale-95 transition-transform" href="https://www.google.com/maps/place/Hysteria+Restaurant/@32.0031838,35.9367986,771m/data=!3m1!1e3!4m15!1m8!3m7!1s0x151b61b795197f5d:0xefe9ac91c5a5c9a2!2sHysteria+Restaurant!8m2!3d32.0031838!4d35.9367986!10e5!16s%2Fg%2F11rcxcjvvv!3m5!1s0x151b61b795197f5d:0xefe9ac91c5a5c9a2!8m2!3d32.0031838!4d35.9367986!16s%2Fg%2F11rcxcjvvv" target="_blank">
+<span class="material-symbols-outlined text-[16px]">navigation</span>
+<span>Open Live GPS Navigation</span>
+</a>
+<a class="bg-surface-container-high border border-outline-variant/60 text-white font-headline font-bold text-xs py-2.5 px-3 rounded-lg flex items-center justify-center gap-1 active:scale-95 transition-transform" href="tel:0790699111">
+<span class="material-symbols-outlined text-[16px] text-[#ffb784]">phone_in_talk</span>
+<span>Call</span>
+</a>
+</div>
+</div>
+<!-- Exact Operating Hours Table -->
+<div class="bg-surface-container rounded-lg p-3 flex flex-col space-y-2 border border-outline-variant/30">
+<div class="flex items-center justify-between text-xs">
+<span class="text-white font-semibold flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            Wednesday – Monday
+          </span>
+<span class="text-[#ffb3af] font-mono font-bold">11:00 AM – 4:00 AM</span>
+</div>
+<div class="h-[1px] bg-[#353437]"></div>
+<div class="flex items-center justify-between text-xs">
+<span class="text-white font-semibold flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            Tuesday
+          </span>
+<span class="text-[#ffb784] font-mono font-bold">11:30 AM – 4:00 AM</span>
+</div>
+</div>
+<!-- Quick Delivery Hotline Footer -->
+<div class="pt-1 flex items-center justify-center space-x-2 text-zinc-400 text-xs">
+<span class="material-symbols-outlined text-[15px] text-[#d90429]">support_agent</span>
+<span>Order Hotline: <strong class="text-white">07 9069 9111</strong> (WhatsApp / Direct)</span>
+</div>
+</section>
+</main>
+<!-- 8. Mobile Bottom Navigation -->
+<nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-[#0e0e10]/95 backdrop-blur-2xl border-t border-[#353437]/70 shadow-[0_-4px_24px_rgba(0,0,0,0.8)]">
+<div class="flex justify-between items-center h-16 px-4">
+<!-- Nav Tab: Menu (Active) -->
+<a class="flex flex-col items-center justify-center gap-1 min-w-[56px] h-12 text-[#ffb3af] font-bold" href="#menu-grid">
+<span class="material-symbols-outlined text-[22px] text-[#d90429]">restaurant</span>
+<span class="font-headline text-[10px] tracking-wide">Menu</span>
+</a>
+<!-- Nav Tab: Offers (1-5 JOD) -->
+<a class="flex flex-col items-center justify-center gap-1 min-w-[56px] h-12 text-zinc-400 hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-[22px]">local_offer</span>
+<span class="font-headline text-[10px] tracking-wide">Offers (1-5 JOD)</span>
+</a>
+<!-- Center Hero Action: Order Online -->
+<a class="flex flex-col items-center justify-center -mt-5 group" href="tel:0790699111">
+<div class="w-13 h-13 p-3 rounded-full bg-gradient-to-tr from-[#bf0022] via-[#d90429] to-[#f47d00] flex items-center justify-center shadow-[0_4px_20px_rgba(217,4,41,0.6)] transition-transform group-active:scale-95 border-2 border-[#131315]">
+<span class="material-symbols-outlined text-white text-[24px]">moped</span>
+</div>
+<span class="font-headline font-extrabold text-[10px] text-[#ffb3af] mt-1 tracking-wider uppercase">Order</span>
+</a>
+<!-- Nav Tab: Find Us -->
+<a class="flex flex-col items-center justify-center gap-1 min-w-[56px] h-12 text-zinc-400 hover:text-white transition-colors" href="https://www.google.com/maps/place/Hysteria+Restaurant/@32.0031838,35.9367986,771m/data=!3m1!1e3!4m15!1m8!3m7!1s0x151b61b795197f5d:0xefe9ac91c5a5c9a2!2sHysteria+Restaurant!8m2!3d32.0031838!4d35.9367986!10e5!16s%2Fg%2F11rcxcjvvv!3m5!1s0x151b61b795197f5d:0xefe9ac91c5a5c9a2!8m2!3d32.0031838!4d35.9367986!16s%2Fg%2F11rcxcjvvv" target="_blank">
+<span class="material-symbols-outlined text-[22px]">location_on</span>
+<span class="font-headline text-[10px] tracking-wide">Tabarbour</span>
+</a>
+<!-- Nav Tab: Call Hotline -->
+<a class="flex flex-col items-center justify-center gap-1 min-w-[56px] h-12 text-zinc-400 hover:text-white transition-colors" href="tel:0790699111">
+<span class="material-symbols-outlined text-[22px]">call</span>
+<span class="font-headline text-[10px] tracking-wide">0790699111</span>
+</a>
+</div>
+</nav>
+<script>
+    // Micro-interactions for Category Pills
+    const categoryBtns = document.querySelectorAll('#category-pills button');
+    categoryBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        categoryBtns.forEach(b => {
+          b.className = 'shrink-0 px-3.5 py-2 rounded-lg text-xs font-headline font-bold bg-surface-container text-zinc-200 border border-outline-variant/40 hover:border-[#d90429] transition-colors';
+        });
+        this.className = 'shrink-0 px-3.5 py-2 rounded-lg text-xs font-headline font-extrabold bg-[#d90429] text-white shadow-md';
+      });
+    });
+  </script>
+
+
+</body></html>
